@@ -1,0 +1,206 @@
+body {
+    font-family: "IBM Plex Mono", monospace;
+    background: #000;
+    width: 100%;
+}
+
+h2 {
+    color: #FFF;
+
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+
+.container {
+    margin: 0 auto;
+    color: #fff;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-image: url(/resources/main-img.png);
+    height: 765px;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.main__header {
+    display: block;
+    width: 1153px;
+    margin: auto;
+    padding-top: 27px;
+}
+
+.logo {
+    display: inline-block;
+    color: #1BFF07;
+    font-size: 42.414px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -4.666px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #000;
+    border-radius: 100px;
+    width: 130px;
+    padding-left: 10px;
+}
+
+.navigation {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav__link {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: lowercase;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.nav__link:hover {
+    color: #1BFF07;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.header__text {
+    width: 430px;
+    position: absolute;
+    top: 334px;
+    left: 125px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.header__h {
+    width: 919px;
+    position: absolute;
+    top: 466px;
+    left: 119px;
+
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+
+    color: #1BFF07;
+}
+
+.realhome__section {
+    margin-top: 40px;
+    display: block;
+    position: relative;
+
+    width: 1150px;
+    height: 550px;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.00) 0%,
+            rgba(0, 0, 0, 0.90) 100%), url(/resources/realhome.png) lightgray 0px -11.324px / 100% 156.818% no-repeat;
+}
+
+
+.glass__section {
+    display: block;
+    position: relative;
+
+    width: 1150px;
+    height: 550px;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.00) 0%,
+            rgba(0, 0, 0, 0.90) 100%),
+        url(/resources/glass.png) lightgray 0px -11.324px / 100% 156.818% no-repeat;
+}
+
+.fesiyen__section {
+    display: block;
+    position: relative;
+
+    width: 1150px;
+    height: 550px;
+    flex-shrink: 0;
+
+    border-radius: 30px;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.00) 0%,
+            rgba(0, 0, 0, 0.90) 100%),
+        url(/resources/fesiyen.png) lightgray 0px -11.324px / 100% 156.818% no-repeat;
+}
+
+.projects {
+    margin: auto;
+    width: 1155px;
+    padding: 150px 0 0 0;
+}
+
+.project__name {
+    color: #FFF;
+
+    position: absolute;
+    bottom: 94px;
+    left: 50px;
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+.project__title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.btn__projects {
+    background-color: #1BFF07;
+    width: 582px;
+    height: 153px;
+    padding: 56px 85px 58px 86px;
+    margin-top: 80px;
+    border-radius: 10px;
+
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+
+    text-decoration: none;
+}
+
+.btn__projects:hover {
+    color: #1BFF07;
+    background-color: #000;
+    border: 1px solid #1BFF07;
+}
