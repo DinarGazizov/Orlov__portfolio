@@ -10,6 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -21,25 +24,25 @@
                     Orlov
                 </a>
                 <nav class="navigation">
-                    <a href="#" class="nav__link">портфолио</a>
-                    <a href="#" class="nav__link">компетенции</a>
-                    <a href="#" class="nav__link">УСЛУГИ</a>
-                    <a href="#" class="nav__link">КОНТАКТЫ</a>
+                    <a href="#portfolio" class="nav__link">портфолио</a>
+                    <a href="#skill" class="nav__link">компетенции</a>
+                    <a href="#service" class="nav__link">УСЛУГИ</a>
+                    <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
                 </nav>
             </div>
-            <div class="header__title">
-                <p class="header__text">
+            <div class="hero">
+                <p class="hero__text">
                     Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают
                     престиж компании и позволяют выделиться на фоне конкурентов
                 </p>
-                <h1 class="header__h">
+                <h1 class="hero__header">
                     Привет, я Саша — фронтенд разарботчик и дизайнер сайтов
                 </h1>
             </div>
         </header>
         <main>
-            <section class="projects">
-                <h2>
+            <section>
+                <h2 id="portfolio">
                     Самые свежие проекты
                 </h2>
                 <div class="realhome__section">
@@ -68,7 +71,99 @@
                 </div>
                 <a href="/" class="btn__projects">Смотреть все проекты</a>
             </section>
+            <section>
+                <h2 id="skill">Мои компетенции</h2>
+                <div class="skill">
+                    <div class="html__skill">
+                        <h3 class="skill__name">HTML и CSS</h3>
+                        <p class="skill__description">
+                            это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы,
+                            а
+                            также применять стили к этим документам на CSS, является обязательным навыком для каждого
+                            фронтенд разработчика.
+                        </p>
+                    </div>
+                    <div class="skill__wrapper">
+                        <h3 class="skill__name">JavaScript</h3>
+                        <p class="skill__description">
+                            это язык программирования, который используется для создания динамического и интерактивного
+                            пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами
+                            JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на
+                            стороне клиента.
+                        </p>
+                    </div>
+                    <div class="frame__skill">
+                        <h3 class="skill__name">Работа с библиотеками и фреймворками</h3>
+                        <p class="skill__description">
+                            фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими
+                            как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под
+                            нужды проекта и расширять их функциональность, является очень важным навыком.
+                        </p>
+                    </div>
+                    <div class="mob__skill">
+                        <h3 class="skill__name">Разработка для мобильных<br /> устройств и адаптивная верстка</h3>
+                        <p class="skill__description">
+                            фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими
+                            как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под
+                            нужды проекта и расширять их функциональность, является очень важным навыком.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 id="service" class="service__title">Помогаю реализовать широкий спектр задач</h2>
+
+                <img class="service__image" src="/resources/websiteDev.png" alt="Сайт">
+                <div class="service__menu">
+                    <h3 class="service__name">Разработка сайта под ключ</h3>
+                    <p class="service__description">
+                        Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
+                        Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь
+                        совершит целевое действие
+                    </p>
+                </div>
+                <img class="service__image" src="/resources/layout.png" alt="Верстка">
+                <div class="service__menu">
+                    <h3 class="service__name">Верстка сайтов</h3>
+                    <p class="service__description">
+                        Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик
+                        может помочь создать привлекательный и удобный интерфейс для вашего сайта
+                    </p>
+                </div>
+                <img class="service__image__last" src="/resources/mobDev.png" alt="Мобильный интерфейс">
+                <div class="service__menu">
+                    <h3 class="service__name">Разработка мобильного интерфейса</h3>
+                    <p class="service__description">
+                        Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд
+                        разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего
+                        сайта или приложения.
+                    </p>
+                </div>
+            </section>
         </main>
+        <footer>
+            <div class="footer__wrapper">
+                <div class="contacts__menu">
+                    <img class="footer__image" src="resources/footerImg.png" alt="">
+                    <h2 id="contacts" class="contacts__name">для связи:</h2>
+                    <ul>
+                        <li><a class="contacts__link" href="/">instagram</a></li>
+                        <li><a class="contacts__link" href="/">telegram</a></li>
+                        <li><a class="contacts__link" href="/">mail</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__white">
+                <div class="footer__text">
+                    <p class="footer__author">
+                        Портфолио фротнтенд-разработчика Саши Орлова
+                    </p>
+                    <p class="footer__rights">
+                        Все права защищены. 2023
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
 
 
